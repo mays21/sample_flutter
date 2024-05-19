@@ -1,5 +1,13 @@
 import "package:flutter/material.dart";
-void main(){
-  runApp(const MaterialApp(home:Text("HELLO WORLD")));
-}
 
+import "package:sample_flutter/gradient_container.dart";
+
+void main() {
+  runApp(
+    const MaterialApp(
+      home: Scaffold(
+        body: GradientContainer.pink(),
+      ),
+    ),
+  );
+}
